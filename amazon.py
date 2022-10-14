@@ -24,11 +24,11 @@ df
 
 
 
-df.set_index('new_date', inplace = True)
-df.sort_index(inplace=True)
+#df.set_index('new_date', inplace = True)
+#df.sort_index(inplace=True)
 
-df.groupby(df.index).sum()[['number']].plot(figsize=(15,6))
-plt.style.use('ggplot')
+#df.groupby(df.index).sum()[['number']].plot(figsize=(15,6))
+#plt.style.use('ggplot')
 #plt.show()
 #st.pyplot(df.head)
 
