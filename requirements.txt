@@ -4,3 +4,4 @@ pandas==1.4.2
 altair==4.2.0
 streamlit==1.13.0
 plotly.express==0.4.1
+matplotlib==3.5.1
