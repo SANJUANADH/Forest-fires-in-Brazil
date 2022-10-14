@@ -35,15 +35,15 @@ df
 
 
 
-fig, ax = plt.subplots(figsize=(15,8))
-sns.barplot(data= df.sort_values(by='number', ascending=False), x = 'number', y= 'state', ci=None, ax=ax)
-ax.set_xticks(ticks=[])
-ax.bar_label(ax.containers[0])
-plt.title('Fires per state from 1998 to 2017', fontdict={'fontsize':20})
-plt.ylabel('')
-plt.style.use('ggplot')
+#fig, ax = plt.subplots(figsize=(15,8))
+#sns.barplot(data= df.sort_values(by='number', ascending=False), x = 'number', y= 'state', ci=None, ax=ax)
+#ax.set_xticks(ticks=[])
+#ax.bar_label(ax.containers[0])
+#plt.title('Fires per state from 1998 to 2017', fontdict={'fontsize':20})
+#plt.ylabel('')
+#plt.style.use('ggplot')
 #plt.show()
-st.pyplot(fig)
+#st.pyplot(fig)
 
 
 
